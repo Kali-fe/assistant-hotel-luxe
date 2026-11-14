@@ -1,0 +1,18 @@
+# Notebooks et Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets (ne jamais versionner de clé d'API)
+.env
+*.key
+
+# Modèles et caches téléchargés
+models/
+.cache/
+huggingface/
+
+# Journaux générés par les exécutions
+journal_*.csv

@@ -1,0 +1,137 @@
+[
+    {
+        "id": "chunk_spa_infos_pratiques_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-03-15",
+        "type_information": "mixte",
+        "langue": "fr-FR",
+        "categorie": "spa",
+        "texte": "Le spa est ouvert du lundi au dimanche de 9h00 à 20h00. L'accès est inclus pour les clients de l'hôtel (sauna, hammam, piscine intérieure). Les enfants de moins de 16 ans doivent être accompagnés d'un adulte et sont admis de 10h00 à 14h00. La carte de soins débute à 70 € (massages, gommages, soins visage). La réservation est obligatoire au moins 24h à l'avance auprès de la conciergerie ou sur l'application."
+    },
+    {
+        "id": "chunk_chambres_suites_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-03-15",
+        "type_information": "statique",
+        "langue": "fr-FR",
+        "categorie": "chambres",
+        "texte": "L'hôtel propose 45 chambres et suites climatisées, toutes équipées d'une literie king-size, d'un coffre-fort, d'une machine Nespresso et d'une connexion Wi-Fi haut débit gratuite."
+    },
+    {
+        "id": "chunk_arrivee_depart_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-03-15",
+        "type_information": "statique",
+        "langue": "fr-FR",
+        "categorie": "formalites",
+        "texte": "Le check-in s'effectue à partir de 15h00 et le check-out s'organise jusqu'à 12h00."
+    },
+    {
+        "id": "chunk_restaurant_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-03-15",
+        "type_information": "mixte",
+        "langue": "fr-FR",
+        "categorie": "restaurant",
+        "texte": "Le restaurant gastronomique 'Le Belvédère' sert le petit-déjeuner de 6h30 à 10h30, le déjeuner de 12h00 à 14h30 et le dîner de 19h00 à 22h30. Une tenue correcte est exigée pour le dîner. Les réservations de tables se font auprès de la conciergerie ou du maître d'hôtel."
+    },
+    {
+        "id": "chunk_room_service_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-03-15",
+        "type_information": "mixte",
+        "langue": "fr-FR",
+        "categorie": "room_service",
+        "texte": "Le service de restauration en chambre (room service) est assuré 24h/24, jour et nuit. La nuit, de 23h00 à 6h00, la carte est restreinte à des plats chauds, des en-cas et des boissons. Le petit-déjeuner continental ou américain peut être commandé à toute heure, y compris la nuit. Un supplément de 8 € est appliqué pour tout service en chambre."
+    },
+    {
+        "id": "chunk_suite_presidentielle_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "statique",
+        "langue": "fr-FR",
+        "categorie": "chambres",
+        "texte": "La Suite Présidentielle \"Le Majestic\" s'étend sur 220 m² au dernier étage avec terrasse panoramique à 360°. Elle comprend un jacuzzi privé extérieur, un piano à queue, un hammam privatif et une salle à manger pouvant accueillir 8 convives. La suite bénéficie d'un service de majordome dédié 24h/24 et d'un accès privé par ascenseur sécurisé. Le tarif commence à 4 500 € par nuit."
+    },
+    {
+        "id": "chunk_politique_animaux_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "statique",
+        "langue": "fr-FR",
+        "categorie": "animaux",
+        "texte": "Les chiens et chats de moins de 10 kg sont accueillis avec plaisir dans l'établissement. Un supplément de 60 € par nuit et par animal s'applique. À l'arrivée, un kit d'accueil comprenant un panier douillet, des gamelles en porcelaine et des friandises gourmet est mis à disposition en chambre. Les animaux ne sont pas admis dans les espaces Spa et Restauration Gastronomique."
+    },
+    {
+        "id": "chunk_politique_annulation_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "mixte",
+        "langue": "fr-FR",
+        "categorie": "formalites",
+        "texte": "Toute annulation ou modification de réservation est sans frais jusqu'à 48 heures avant la date d'arrivée prévue (15h00 heure locale). Pour toute annulation effectuée à moins de 48 heures de l'arrivée, la première nuit sera entièrement facturée. Les tarifs promotionnels non remboursables ne permettent aucune modification ni remboursement."
+    },
+    {
+        "id": "chunk_bar_crystal_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "statique",
+        "langue": "fr-FR",
+        "categorie": "bar",
+        "texte": "Le Crystal Bar est ouvert tous les jours de 17h00 à 01h00 du matin. Il propose une carte de cocktails créatifs signés par notre chef mixologue, une sélection de grands crus au verre et des caviars d'exception. Une ambiance musicale avec pianiste en live est proposée les jeudis, vendredis et samedis de 20h00 à 23h00. Tenue élégante exigée (pas de shorts ni de chaussures de sport)."
+    },
+    {
+        "id": "chunk_cinema_prive_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "mixte",
+        "langue": "fr-FR",
+        "categorie": "loisirs",
+        "texte": "L'hôtel dispose d'une salle de projection privée, l'Écran d'Or, de 12 fauteuils en cuir inclinables avec service en salle. La salle peut être réservée sur créneaux de 2 heures pour des séances privées (sélection de films ou streaming personnel). La réservation s'effectue auprès de la conciergerie 6 heures à l'avance au tarif de 180 € la séance, incluant pop-corn artisanal et champagne."
+    },
+    {
+        "id": "chunk_petit_dejeuner_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "mixte",
+        "langue": "fr-FR",
+        "categorie": "restaurant",
+        "texte": "Le petit-déjeuner buffet et à la carte est servi au restaurant principal de 06h30 à 10h30. Le petit-déjeuner continental ou américain peut aussi être servi en chambre à toute heure, 24h/24, via le Room Service. Le petit-déjeuner complet est inclus pour les clients des catégories Suites. Pour les autres catégories, il est facturé 45 € par personne."
+    },
+    {
+        "id": "chunk_conciergerie_clefs_dor_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "statique",
+        "langue": "fr-FR",
+        "categorie": "conciergerie",
+        "texte": "Notre équipe de Concierges Clefs d'Or est à disposition dans le hall principal de 07h00 à 23h00. En dehors de ces horaires, la conciergerie de nuit reste joignable par la ligne directe de la chambre. L'assistant virtuel est disponible 24h/24. Les services incluent : réservation de tables VIP en restaurants étoilés, billetterie d'opéra et de théâtre, location de yachts, visites privées de musées hors horaires d'ouverture et personal shopper."
+    },
+    {
+        "id": "chunk_fitness_coaching_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "statique",
+        "langue": "fr-FR",
+        "categorie": "sport",
+        "texte": "La salle de fitness haute technologie est accessible gratuitement aux clients de l'hôtel 24h/24 grâce à la carte de chambre. Elle est équipée de machines Technogym de dernière génération. Des séances individuelles avec un coach sportif certifié ou un professeur de yoga sont disponibles sur réservation (110 € la séance de 60 minutes)."
+    },
+    {
+        "id": "chunk_blanchisserie_pressing_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "statique",
+        "langue": "fr-FR",
+        "categorie": "services",
+        "texte": "Un service complet de blanchisserie, nettoyage à sec et repassage est disponible 7j/7. Les vêtements déposés avant 10h00 sont restitués le jour même avant 18h00. Un service pressing express en 2 heures est disponible moyennant un supplément de 50 %. Une table et un fer à repasser peuvent également être installés gratuitement en chambre sur simple demande."
+    },
+    {
+        "id": "chunk_transferts_aeroport_01",
+        "source": "Guide_Interne_Services_Hotel_v2.pdf",
+        "date_mise_a_jour": "2026-11-09",
+        "type_information": "mixte",
+        "langue": "fr-FR",
+        "categorie": "transport",
+        "texte": "Deux services de transfert vers et depuis l'aéroport sont proposés. Le premier est un transfert en véhicule privé avec chauffeur : il coûte 90 € par trajet, pour 3 passagers au maximum, et se réserve auprès de la conciergerie au moins 12 heures avant l'heure de départ. Le second est un transfert en hélicoptère depuis l'héliport privé situé sur le toit de l'hôtel (code H-LUX) : il dure 12 minutes, coûte 850 € par trajet, pour 4 passagers au maximum avec bagages légers, et se réserve auprès de la Conciergerie Clefs d'Or 24 heures à l'avance."
+    }
+]
