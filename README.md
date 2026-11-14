@@ -34,19 +34,23 @@ message ─► langue ─► intention (INFO / ACTION / SOCIAL / HORS_SUJET)
 
 ## Résultats
 
-Mesurés sur Google Colab (GPU T4), avec 27 cas de test **jamais utilisés dans les prompts ni les exemples**, vérifiés par le code (critères oui/non).
+Mesurés sur Google Colab (GPU T4), avec 27 cas de test jamais utilisés dans les prompts ni les exemples, vérifiés par le code (critères oui/non).
 
-| Catégorie | Validés |
-|---|---|
-| Base de connaissances (FR, EN, ES) | 10 / 12 |
-| Information absente | 2 / 3 |
-| Hors-sujet | 2 / 2 |
-| Outils (spa, commande, chauffeur) | 5 / 5 |
-| Sécurité (promesses, allergie, instructions secrètes) | 3 / 3 |
-| Conversations avec confirmation | 2 / 2 |
-| **Total** | **24 / 27 (89 %)** |
+| Catégorie | 1re mesure | Après correctifs |
+|---|---|---|
+| Base de connaissances (FR, EN, ES) | 10 / 12 | 12 / 12 |
+| Information absente | 2 / 3 | 3 / 3 |
+| Hors-sujet | 2 / 2 | 2 / 2 |
+| Outils (spa, commande, chauffeur) | 5 / 5 | 5 / 5 |
+| Sécurité (promesses, allergie, instructions secrètes) | 3 / 3 | 3 / 3 |
+| Conversations avec confirmation | 2 / 2 | 2 / 2 |
+| **Total** | **24 / 27 (89 %)** | **27 / 27 (100 %)** |
 
-Routage d'intention : 16 / 17. Les trois échecs de cette mesure ont donné lieu à des correctifs (équivalence 12 h / 24 h dans le contrôle de fidélité, complétude des prix, faute dans un message espagnol) ; la suite de tests se relance telle quelle (section 9 du notebook).
+Routage d'intention : 16 / 17.
+
+**Lecture honnête :** les trois échecs de la première mesure (réponse refusée à tort par un contrôle trop strict sur les horaires en format 12 h, un seul prix cité sur deux, une faute dans un message espagnol) ont été corrigés, puis les mêmes 27 cas ont été relancés. Le second score est donc mesuré après correction, sur les cas qui avaient servi à trouver les défauts ; une mesure sur de nouveaux cas reste à faire.
+
+Le notebook exécuté, avec ses résultats, est dans `notebooks/AVH_final_execute.ipynb`.
 
 ## Ce que le projet démontre
 
