@@ -11,6 +11,12 @@ Concierge virtuel **multilingue** (français, anglais, espagnol) qui répond à 
 - Vérifie la **disponibilité** (créneaux du spa, chauffeur) et enregistre des **commandes** de room service, via des outils simulés.
 - Ne promet **jamais** une action qu'il ne peut pas faire, refuse le hors-sujet, renvoie vers la conciergerie quand il ne sait pas, ne devine pas le genre du client.
 
+## Interface de chat
+
+La section 10 du notebook lance une interface de chat (Gradio) : on utilise l'assistant sans voir le code. Chaque visiteur a sa propre session, et une ligne sous la conversation montre la langue détectée, l'intention et le traitement choisi (recherche documentaire, outil, refus de garde-fou).
+
+![Interface de chat](docs/interface.png)
+
 ## Principe de conception : *le LLM comprend, le code garantit*
 
 | Étape | Qui |
@@ -70,11 +76,16 @@ Dépendances : voir `requirements.txt`. La base de démonstration est dans `data
 ## Structure
 
 ```
-notebooks/AVH_final.ipynb      le projet complet, en sections commentées
+notebooks/AVH_final.ipynb      le projet complet, en sections commentées (section 10 : interface de chat)
+docs/interface.png             capture de l'interface (à ajouter)
 data/chunks_hotel.json         base de connaissances fictive (15 chunks)
 docs/fiche_collecte_hotel.md   questionnaire pour recenser les services d'un vrai hôtel
 tools/nettoyer_notebook.py     prépare un notebook Colab pour GitHub
 ```
+
+## Réutilisable dans d'autres domaines (perspective, non implémenté)
+
+L'architecture sépare le **moteur** (langue, intention, recherche, contrôles, confirmation) du **domaine** (base de connaissances, vocabulaire, outils). Elle pourrait servir un autre secteur, par exemple la prise de rendez-vous dans un établissement de santé (outil de création de rendez-vous enregistré dans un tableur). Ce cas demanderait des garde-fous supplémentaires (aucun conseil médical, orientation immédiate en cas d'urgence) et le respect des règles de protection des données de santé : il n'est pas réalisé dans ce dépôt.
 
 ## Limites et pistes
 
@@ -85,7 +96,7 @@ tools/nettoyer_notebook.py     prépare un notebook Colab pour GitHub
 
 ## Auteur
 
-Gilchrist, étudiant en Licence 3 Systèmes Informatiques et Logiciels, Cotonou (Bénin).
+Gilchrist, étudiant en Licence 3 Systèmes Informatiques et Logiciels, Abomey-Calavi (Bénin).
 
 ## Licence
 
