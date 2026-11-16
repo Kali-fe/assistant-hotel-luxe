@@ -15,7 +15,7 @@ Concierge virtuel **multilingue** (français, anglais, espagnol) qui répond à 
 
 La section 10 du notebook lance une interface de chat (Gradio) : on utilise l'assistant sans voir le code. Chaque visiteur a sa propre session, et une ligne sous la conversation montre la langue détectée, l'intention et le traitement choisi (recherche documentaire, outil, refus de garde-fou).
 
-![Interface de chat](docs/interface.png)
+![Interface de chat](docs/Interface1.png)
 
 ## Principe de conception : *le LLM comprend, le code garantit*
 
